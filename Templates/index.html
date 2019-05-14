@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Mission to Mars</title>
+</head>
+
+<body style="background:black;">
+    <div class="container" style="background:black;">
+        <div class="jumbotron text-center" style="width: 100%;">
+            <h1 style="color: red"> Welcome to the Red Planet</h1>
+            <br></br>
+            <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+        </div>
+        <!-- News from Mars -->
+        <h1 style="color:white; text-align:center; margin-bottom:30px; border-bottom:1px solid white; padding-bottom:10px;">
+            The latest from Mars
+        </h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">News</h3>
+                    </div>
+                    <div class="panel-body">
+                        <!-- insert scraped NASA headline -->
+                        <h4>Why This Martian Full Moon Looks Like Candy</h4>
+                        <!-- insert scraped NASA teaser -->
+                        <p>For the first time, NASA's Mars Odyssey orbiter has caught the Martian moon Phobos during a full moon phase. 
+                            Each color in this new image represents a temperature range detected by Odyssey's infrared camera.</p>
+                        <a href="https://mars.nasa.gov/news/8436/why-this-martian-full-moon-looks-like-candy/">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Mars weather update -->
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Weather</h3>
+                    </div>
+                    <div class="panel-body">
+                        <h4>Weather Summary</h4>
+                        <!-- insert Mars weather summary-->
+                        <p>InSight sol 163 (2019-05-13) low -99.9ºC (-147.7ºF) high -17.7ºC (0.2ºF)
+                            winds from the SW at 4.3 m/s (9.7 mph) gusting to 15.2 m/s (34.0 mph)
+                            pressure at 7.50</p>
+                            <a href="https://twitter.com/marswxreport?lang=en">GET MORE MARS WEATHER</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Mars facts table -->
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Facts</h3>
+                    </div>
+                    <div class="panel-body">
+                        <table style = "width: 100%; padding: 10px">
+                            <tr>
+                                <th>Equatorial Diameter:</th>
+                                <td>6,792 km</td> 
+                            </tr>
+                            <tr>
+                                <th>Polar Diameter:</th>
+                                <td>6,752 km</td>
+                            </tr>
+                            <tr>
+                                <th>Mass:</th>
+                                <td>6.42 x 10^23 kg (10.7% Earth)</td>
+                            </tr>
+                            <tr>
+                                <th>Moons:</th>
+                                <td>2 (Phobos & Deimos)</td>
+                            </tr>
+                            <tr>
+                                <th>Orbit Distance:</th>
+                                <td>227,943,824 km (1.52 AU)</td>
+                            </tr>
+                            <tr>
+                                <th>Orbit Period:</th>
+                                <td>687 days (1.9 years)</td>
+                            </tr>
+                            <tr>
+                                <th>Surface Temperature:</th>
+                                <td>-153 to 20 °C</td>
+                            </tr>
+                            <tr>
+                                <th>First Record:</th>
+                                <td>2nd millennium BC</td>
+                            </tr>
+                            <tr>
+                                <th>Recorded By:</th>
+                                <td>Egyptian astronomers</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Featured image -->
+        <h1 style="color:white; text-align:center; margin-bottom:30px; border-bottom:1px solid white; padding-bottom:10px;">
+            Images
+        </h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Featured Image</h3>
+                    </div>
+                    <div class="panel-body">
+                        <!-- Insert URL of featured image -->
+                        <img src="https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA23217-640x350.jpg" alt="Featured Image" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Mars Hemispheres</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="thumbnail" style="width: 50%; float:left;">
+                            <img src="https://astrogeology.usgs.gov/cache/images/cfa62af2557222a02478f1fcd781d445_cerberus_enhanced.tif_full.jpg" alt="Hemisphere1">
+                            <div class="caption">
+                                <h4>Cerberus Hemisphere Enhanced</h4>
+                            </div>
+                        </div>
+                        <div class="thumbnail" style="width: 50%; float:left;">
+                            <!-- insert URLs for scraped images -->
+                            <img src="https://astrogeology.usgs.gov/cache/images/3cdd1cbf5e0813bba925c9030d13b62e_schiaparelli_enhanced.tif_full.jpg" alt="Hemisphere2">
+                            <div class="caption">
+                                <h4>Schiaparelli Hemisphere Enhanced</h4>
+                            </div>
+                        </div>
+                        <div class="thumbnail" style="width: 50%; float:left;">
+                            <img src="https://astrogeology.usgs.gov/cache/images/ae209b4e408bb6c3e67b6af38168cf28_syrtis_major_enhanced.tif_full.jpg" alt="Hemisphere3">
+                            <div class="caption">
+                                <h4>Syrtis Major Hemisphere Enhanced</h4>
+                            </div>
+                        </div>
+                        <div class="thumbnail" style="width: 50%; float:left;">
+                            <img src="https://astrogeology.usgs.gov/cache/images/7cf2da4bf549ed01c17f206327be4db7_valles_marineris_enhanced.tif_full.jpg" alt="Hemisphere4">
+                            <div class="caption">
+                                <h4>Valles Marineris Hemisphere Enhanced</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
